@@ -1,0 +1,446 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7BE9B23F143D055D0049D9E9 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BE9B23E143D055D0049D9E9 /* SenTestingKit.framework */; };
+		7BE9B240143D07180049D9E9 /* MTKitTests32.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BE9B237143D01120049D9E9 /* MTKitTests32.m */; };
+		7BE9B241143D07240049D9E9 /* MTKitTests64.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BE9B23B143D01270049D9E9 /* MTKitTests64.m */; };
+		7BE9B242143D07710049D9E9 /* tinymt64.c in Sources */ = {isa = PBXBuildFile; fileRef = 96268745143C2BAB00000A64 /* tinymt64.c */; };
+		7BE9B245143D082B0049D9E9 /* tinymt32.h in Headers */ = {isa = PBXBuildFile; fileRef = 96268744143C2BAB00000A64 /* tinymt32.h */; };
+		7BE9B246143D082F0049D9E9 /* tinymt64.h in Headers */ = {isa = PBXBuildFile; fileRef = 96268746143C2BAB00000A64 /* tinymt64.h */; };
+		9626871D143C2A7A00000A64 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9626871C143C2A7A00000A64 /* Foundation.framework */; };
+		96268729143C2A7A00000A64 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9626871C143C2A7A00000A64 /* Foundation.framework */; };
+		9626872E143C2A7A00000A64 /* libMTKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 96268719143C2A7A00000A64 /* libMTKit.a */; };
+		96268734143C2A7A00000A64 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 96268732143C2A7A00000A64 /* InfoPlist.strings */; };
+		96268737143C2A7A00000A64 /* MTKitTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 96268736143C2A7A00000A64 /* MTKitTests.h */; };
+		96268739143C2A7A00000A64 /* MTKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 96268738143C2A7A00000A64 /* MTKitTests.m */; };
+		96268747143C2BAB00000A64 /* tinymt32.c in Sources */ = {isa = PBXBuildFile; fileRef = 96268743143C2BAB00000A64 /* tinymt32.c */; };
+		9626874D143C2CF600000A64 /* TinyMT.h in Headers */ = {isa = PBXBuildFile; fileRef = 9626874B143C2CF600000A64 /* TinyMT.h */; };
+		9626874E143C2CF600000A64 /* TinyMT.m in Sources */ = {isa = PBXBuildFile; fileRef = 9626874C143C2CF600000A64 /* TinyMT.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9626872C143C2A7A00000A64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 96268710143C2A7900000A64 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 96268718143C2A7A00000A64;
+			remoteInfo = MTKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7BE9B236143D01120049D9E9 /* MTKitTests32.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTKitTests32.h; sourceTree = "<group>"; };
+		7BE9B237143D01120049D9E9 /* MTKitTests32.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTKitTests32.m; sourceTree = "<group>"; };
+		7BE9B23A143D01270049D9E9 /* MTKitTests64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTKitTests64.h; sourceTree = "<group>"; };
+		7BE9B23B143D01270049D9E9 /* MTKitTests64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MTKitTests64.m; sourceTree = "<group>"; };
+		7BE9B23E143D055D0049D9E9 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		96268719143C2A7A00000A64 /* libMTKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libMTKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9626871C143C2A7A00000A64 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		96268720143C2A7A00000A64 /* MTKit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MTKit-Prefix.pch"; sourceTree = "<group>"; };
+		96268726143C2A7A00000A64 /* MTKitTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MTKitTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9626872A143C2A7A00000A64 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		96268731143C2A7A00000A64 /* MTKitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MTKitTests-Info.plist"; sourceTree = "<group>"; };
+		96268733143C2A7A00000A64 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		96268735143C2A7A00000A64 /* MTKitTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MTKitTests-Prefix.pch"; sourceTree = "<group>"; };
+		96268736143C2A7A00000A64 /* MTKitTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MTKitTests.h; sourceTree = "<group>"; };
+		96268738143C2A7A00000A64 /* MTKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MTKitTests.m; sourceTree = "<group>"; };
+		96268743143C2BAB00000A64 /* tinymt32.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = tinymt32.c; path = "TinyMT-src/tinymt/tinymt32.c"; sourceTree = "<group>"; };
+		96268744143C2BAB00000A64 /* tinymt32.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = tinymt32.h; path = "TinyMT-src/tinymt/tinymt32.h"; sourceTree = "<group>"; };
+		96268745143C2BAB00000A64 /* tinymt64.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = tinymt64.c; path = "TinyMT-src/tinymt/tinymt64.c"; sourceTree = "<group>"; };
+		96268746143C2BAB00000A64 /* tinymt64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = tinymt64.h; path = "TinyMT-src/tinymt/tinymt64.h"; sourceTree = "<group>"; };
+		9626874B143C2CF600000A64 /* TinyMT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TinyMT.h; sourceTree = "<group>"; };
+		9626874C143C2CF600000A64 /* TinyMT.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TinyMT.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		96268716143C2A7A00000A64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9626871D143C2A7A00000A64 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96268722143C2A7A00000A64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BE9B23F143D055D0049D9E9 /* SenTestingKit.framework in Frameworks */,
+				96268729143C2A7A00000A64 /* Foundation.framework in Frameworks */,
+				9626872E143C2A7A00000A64 /* libMTKit.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9626870E143C2A7900000A64 = {
+			isa = PBXGroup;
+			children = (
+				96268742143C2AE200000A64 /* TinyMT */,
+				9626871E143C2A7A00000A64 /* MTKit */,
+				9626872F143C2A7A00000A64 /* MTKitTests */,
+				9626871B143C2A7A00000A64 /* Frameworks */,
+				9626871A143C2A7A00000A64 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9626871A143C2A7A00000A64 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				96268719143C2A7A00000A64 /* libMTKit.a */,
+				96268726143C2A7A00000A64 /* MTKitTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9626871B143C2A7A00000A64 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7BE9B23E143D055D0049D9E9 /* SenTestingKit.framework */,
+				9626871C143C2A7A00000A64 /* Foundation.framework */,
+				9626872A143C2A7A00000A64 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9626871E143C2A7A00000A64 /* MTKit */ = {
+			isa = PBXGroup;
+			children = (
+				9626871F143C2A7A00000A64 /* Supporting Files */,
+				9626874B143C2CF600000A64 /* TinyMT.h */,
+				9626874C143C2CF600000A64 /* TinyMT.m */,
+			);
+			path = MTKit;
+			sourceTree = "<group>";
+		};
+		9626871F143C2A7A00000A64 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				96268720143C2A7A00000A64 /* MTKit-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9626872F143C2A7A00000A64 /* MTKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				96268736143C2A7A00000A64 /* MTKitTests.h */,
+				96268738143C2A7A00000A64 /* MTKitTests.m */,
+				7BE9B236143D01120049D9E9 /* MTKitTests32.h */,
+				7BE9B237143D01120049D9E9 /* MTKitTests32.m */,
+				7BE9B23A143D01270049D9E9 /* MTKitTests64.h */,
+				7BE9B23B143D01270049D9E9 /* MTKitTests64.m */,
+				96268730143C2A7A00000A64 /* Supporting Files */,
+			);
+			path = MTKitTests;
+			sourceTree = "<group>";
+		};
+		96268730143C2A7A00000A64 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				96268731143C2A7A00000A64 /* MTKitTests-Info.plist */,
+				96268732143C2A7A00000A64 /* InfoPlist.strings */,
+				96268735143C2A7A00000A64 /* MTKitTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		96268742143C2AE200000A64 /* TinyMT */ = {
+			isa = PBXGroup;
+			children = (
+				96268743143C2BAB00000A64 /* tinymt32.c */,
+				96268744143C2BAB00000A64 /* tinymt32.h */,
+				96268745143C2BAB00000A64 /* tinymt64.c */,
+				96268746143C2BAB00000A64 /* tinymt64.h */,
+			);
+			name = TinyMT;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		96268717143C2A7A00000A64 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9626874D143C2CF600000A64 /* TinyMT.h in Headers */,
+				7BE9B245143D082B0049D9E9 /* tinymt32.h in Headers */,
+				7BE9B246143D082F0049D9E9 /* tinymt64.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		96268718143C2A7A00000A64 /* MTKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9626873C143C2A7A00000A64 /* Build configuration list for PBXNativeTarget "MTKit" */;
+			buildPhases = (
+				96268715143C2A7A00000A64 /* Sources */,
+				96268716143C2A7A00000A64 /* Frameworks */,
+				96268717143C2A7A00000A64 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MTKit;
+			productName = MTKit;
+			productReference = 96268719143C2A7A00000A64 /* libMTKit.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		96268725143C2A7A00000A64 /* MTKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9626873F143C2A7A00000A64 /* Build configuration list for PBXNativeTarget "MTKitTests" */;
+			buildPhases = (
+				96268721143C2A7A00000A64 /* Sources */,
+				96268722143C2A7A00000A64 /* Frameworks */,
+				96268723143C2A7A00000A64 /* Resources */,
+				96268724143C2A7A00000A64 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9626872D143C2A7A00000A64 /* PBXTargetDependency */,
+			);
+			name = MTKitTests;
+			productName = MTKitTests;
+			productReference = 96268726143C2A7A00000A64 /* MTKitTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		96268710143C2A7900000A64 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Zynga Japan K.K.";
+			};
+			buildConfigurationList = 96268713143C2A7900000A64 /* Build configuration list for PBXProject "MTKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9626870E143C2A7900000A64;
+			productRefGroup = 9626871A143C2A7A00000A64 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				96268718143C2A7A00000A64 /* MTKit */,
+				96268725143C2A7A00000A64 /* MTKitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		96268723143C2A7A00000A64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96268734143C2A7A00000A64 /* InfoPlist.strings in Resources */,
+				96268737143C2A7A00000A64 /* MTKitTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		96268724143C2A7A00000A64 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		96268715143C2A7A00000A64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96268747143C2BAB00000A64 /* tinymt32.c in Sources */,
+				9626874E143C2CF600000A64 /* TinyMT.m in Sources */,
+				7BE9B242143D07710049D9E9 /* tinymt64.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		96268721143C2A7A00000A64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96268739143C2A7A00000A64 /* MTKitTests.m in Sources */,
+				7BE9B240143D07180049D9E9 /* MTKitTests32.m in Sources */,
+				7BE9B241143D07240049D9E9 /* MTKitTests64.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9626872D143C2A7A00000A64 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 96268718143C2A7A00000A64 /* MTKit */;
+			targetProxy = 9626872C143C2A7A00000A64 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		96268732143C2A7A00000A64 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				96268733143C2A7A00000A64 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9626873A143C2A7A00000A64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9626873B143C2A7A00000A64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		9626873D143C2A7A00000A64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DSTROOT = /tmp/MTKit.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MTKit/MTKit-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9626873E143C2A7A00000A64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DSTROOT = /tmp/MTKit.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MTKit/MTKit-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		96268740143C2A7A00000A64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MTKitTests/MTKitTests-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "MTKitTests/MTKitTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		96268741143C2A7A00000A64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MTKitTests/MTKitTests-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "MTKitTests/MTKitTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		96268713143C2A7900000A64 /* Build configuration list for PBXProject "MTKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9626873A143C2A7A00000A64 /* Debug */,
+				9626873B143C2A7A00000A64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9626873C143C2A7A00000A64 /* Build configuration list for PBXNativeTarget "MTKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9626873D143C2A7A00000A64 /* Debug */,
+				9626873E143C2A7A00000A64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9626873F143C2A7A00000A64 /* Build configuration list for PBXNativeTarget "MTKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				96268740143C2A7A00000A64 /* Debug */,
+				96268741143C2A7A00000A64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 96268710143C2A7900000A64 /* Project object */;
+}
