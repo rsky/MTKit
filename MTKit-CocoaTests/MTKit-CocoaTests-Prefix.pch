@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'MTKit-CocoaTests' target in the 'MTKit-CocoaTests' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
